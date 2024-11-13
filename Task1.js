@@ -1,0 +1,36 @@
+/*
+< !-- ### Task - 1
+
+You went to the supermarket to buy some oranges and apples. Calculate how much money the shopkeeper will return.
+
+**Input:**
+</br>
+The first line of the input is the taka you have.
+The second line is the cost of 1 kg of oranges and 1 kg of apples.
+
+**Output:**
+</br>
+Print the result.
+
+---
+
+**Sample Input:**
+</br>
+1000
+</br>
+700
+
+**Sample Output:**
+</br>
+300 -->
+*/
+var totalMoney = 1000;
+console.log("total money i have = ",totalMoney);
+
+var orange1kg = 500;
+var apple1kg = 200;
+var cost = orange1kg + apple1kg;
+console.log("total price of 1 kg apple & 1 kg orrange = ",cost)
+
+var change = totalMoney - cost;
+console.log("Change = ",change);
